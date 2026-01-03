@@ -33,7 +33,7 @@ export default function Navbar({ }): any {
       </div>
       <div className="items-center hidden gap-2 md:flex">
         <ModeToggle />
-        <Link href="https://startuppitch-pk7g38l7p-my-team-58e3ebda.vercel.app">
+        <Link href="https://pitchyourstartup.vercel.app">
           <Button
             variant="default"
             className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
@@ -42,10 +42,10 @@ export default function Navbar({ }): any {
             <span>Check it up our startup forum!</span>
             <span className="text-xl">
               <Image
-                src="/images/hakkinda.png"
-                alt="Hakkinda"
-                width={20} // text-xl ile uyumlu, gerektiğinde ayarlayın
-                height={20} // kare görsel varsayıyorum, orijinal boyutlara göre değiştirin
+                src="/images/about.png"
+                alt="Startup Forum"
+                width={20}
+                height={20}
                 className="object-contain"
               />
             </span>
